@@ -11,7 +11,7 @@ export default function Navigation() {
       >
         <div className="wrapp">
           <ul class="nav-bar">
-            <li className='active-hover'><a className="active" href="#home" style={{ color: theme.color }}>Home</a></li>
+            <li><a className="active" href="#home" style={{ color: theme.color }}>Home</a></li>
             <li><a href="#news" style={{ color: theme.color }}>News</a></li>
             <li><a href="#about" style={{ color: theme.color }}>About</a></li>
             <li><a href="#contact" style={{ color: theme.color }}>Contact</a></li>
