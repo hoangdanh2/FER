@@ -1,5 +1,5 @@
 import React from 'react'
-import { Players } from '../shared/ListOfPlayers'
+import { Players } from '../Share/ListOfPlayers'
 export default function Player() {
   
     return (
