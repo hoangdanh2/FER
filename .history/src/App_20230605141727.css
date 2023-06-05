@@ -19,11 +19,9 @@
 .active{
   padding: 20px;
   width: 144px;
-}
-
-.active-hover {
   background-color: rgb(234, 234, 11);
 }
+
 .nav-bar li{
   padding: 20px;
   list-style: none;
