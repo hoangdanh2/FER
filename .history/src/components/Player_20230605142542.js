@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Players } from '../shared/ListOfPlayers';
+import { Players } from '../Share/ListOfPlayers';
 
 export default class player extends Component {
     render() {
@@ -8,7 +8,7 @@ export default class player extends Component {
                 {Players.map((player)=>(
                    <div className='column'>
                    <div className='card'>
-                   <img src={player.img} alt=""/>
+                   <img src={player.img}/>
                      <h3>{player.name}</h3>
                      <p className='title'>{player.club}</p>
                      <p><button>Detail</button></p>
@@ -17,5 +17,6 @@ export default class player extends Component {
                 ))}
             </div>
           )
+        
     }
 }
